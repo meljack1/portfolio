@@ -1,5 +1,5 @@
 import React from 'react';
-import melPhoto from '../../assets/melphoto.PNG'
+import melPhoto from '../assets/melphoto.PNG'
 
 export default function About() {
   return (
