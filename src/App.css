@@ -31,6 +31,10 @@ h1 {
   color: #F9EDDC;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 p {
   color: #F9EDDC;
   font-size: 18px;
