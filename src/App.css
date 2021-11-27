@@ -79,6 +79,10 @@ a:hover {
   font-size: 20px;
 }
 
-.uk-card-body img { 
+.uk-card-footer img { 
   margin: 2px;
+}
+
+.uk-card-default .uk-card-footer {
+  border-top: none;
 }
