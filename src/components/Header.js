@@ -33,7 +33,7 @@ function Header({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-          <li><a href={'/'}>CV</a></li>
+          <li><a href={'https://drive.google.com/uc?export=download&id=1FJkulOLHcNVX8RBHgrM59cQgZ1VD05_M'}>CV</a></li>
         </ul>
       </div>
   </nav>
