@@ -11,7 +11,6 @@ export default function Contact() {
 
   const handleInputChange = (prop) => (event) => {
     setValues({ ...input, [prop]: event.target.value });
-    console.log(input);
   };
 
   const sendEmail = (e) => {
