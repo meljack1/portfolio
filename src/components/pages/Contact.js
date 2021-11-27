@@ -20,7 +20,7 @@ export default function Contact() {
       <h1 className="uk-heading-line uk-text-center">
             <span>Contact</span>
       </h1>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className="uk-container uk-container-xsmall">
         <fieldset className="uk-fieldset">
             <div className="uk-margin">
                 <input className="uk-input" type="text" id="contact-name" placeholder="Name" />
