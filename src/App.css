@@ -67,11 +67,15 @@ a:hover {
   min-height: 100vh;
 }
 
-#navbar, #submit-button {
+#navbar {
   background-color: #DA3E52;
   position: fixed;
   width: 100%;
   z-index: 999;
+}
+
+#submit-button {
+  background-color: #DA3E52;
 }
 
 .uk-navbar-nav li a {
