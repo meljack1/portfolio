@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div>
         <h1 className="uk-heading-line uk-text-center">
-            <span>About</span>
+            <span>About Mel Jack</span>
         </h1>
         <div className="uk-container uk-container-xsmall">
             <div className="circle">
