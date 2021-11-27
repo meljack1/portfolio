@@ -7,8 +7,8 @@ main {
 
 .circle {
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -32,10 +32,11 @@ h1 {
 }
 
 h2 {
+  color: #F9EDDC;
   font-weight: bold;
 }
 
-p {
+p, ul, li {
   color: #F9EDDC;
   font-size: 18px;
 }
@@ -64,6 +65,10 @@ a:hover {
   position: fixed;
   width: 100%;
   z-index: 999;
+}
+
+#about-container {
+  margin-top: 20px;
 }
 
 #submit-button, .uk-button-primary {
@@ -116,6 +121,12 @@ a:hover {
 @media (min-width: 900px) {
   #portfolio-container {
     width: 75vw;
+  }
+
+  #about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
   }
 }
 
