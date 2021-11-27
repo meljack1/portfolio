@@ -19,7 +19,7 @@ export default function Portfolio() {
 
         <div className="uk-slider-container-offset" id="portfolio-container" data-uk-slider>
 
-            <div className="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1">
+            <div className="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
                 <ul className="uk-slider-items uk-child-width-1-2@s uk-grid">
                     <li>
