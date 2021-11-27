@@ -16,7 +16,7 @@ export default function Portfolio() {
             <span>Portfolio</span>
         </h1>
 
-        <div className="uk-slider-container-offset" data-uk-slider="center: true">
+        <div className="uk-slider-container-offset" id="portfolio-container" data-uk-slider="center: true">
 
             <div className="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1">
 
