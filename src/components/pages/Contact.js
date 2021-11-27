@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import emailjs from 'emailjs-com';
-
+import UIkit from 'uikit';
 export default function Contact() {
 
   const form = useRef();
@@ -11,6 +11,7 @@ export default function Contact() {
       .then((result) => {
           console.log(result.text);
       }, (error) => {
+          UIkit.modal.alert('There was an error in submitting the form. Try again later, or contact me directly at mel.jack.developer@gmail.com')
           console.log(error.text);
       });
   };
