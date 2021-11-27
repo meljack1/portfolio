@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import UIkit from 'uikit';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+
 export default function Contact() {
 
   const [input, setValues] = useState({
@@ -29,9 +33,10 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div id="contact-container">
+      <script src="https://kit.fontawesome.com/9303db13fa.js" crossorigin="anonymous"></script>
       <h1 className="uk-heading-line uk-text-center">
-            <span>Contact</span>
+        <span>Contact</span>
       </h1>
       <form onSubmit={sendEmail} className="uk-container uk-container-xsmall">
         <fieldset className="uk-fieldset">
@@ -46,8 +51,29 @@ export default function Contact() {
                 </textarea>
             </div>
         </fieldset>
-        <button className="uk-button uk-button-primary" id="submit-button" type="submit">Submit</button>
+        <button className="uk-button uk-button-primary uk-position-center" id="submit-button" type="submit">Submit</button>
       </form>
+
+      <div id="contact">
+          <p>
+            <a className="contact-link" href="https://www.linkedin.com/in/mel-jack/" target="_blank">  
+            <FontAwesomeIcon icon={faLinkedin} />LinkedIn
+            </a>
+          </p>
+          <p>
+            <a className="contact-link" href="https://github.com/meljack1" target="_blank">
+              <FontAwesomeIcon icon={faGithub} /> Github
+            </a>
+          </p>
+          <p><a class="contact-link" href="mailto:melissa_jack@hotmail.co.uk">
+            <i className="fas fa-envelope"></i> 
+              <FontAwesomeIcon icon={faEnvelope} /> Email
+            </a></p>
+          <p><a className="contact-link" href="tel:+447778211318">
+            <FontAwesomeIcon icon={faMobileAlt} /> Mobile
+            </a>
+          </p>
+      </div>
     </div>
   );
 }
