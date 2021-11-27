@@ -25,7 +25,20 @@ main {
   margin: auto;
 }
 
+@media (min-width: 900px) {
+  #portfolio-container {
+    width: 75vw;
+  }
+}
+
+@media (min-width: 1536px) {
+  #portfolio-container {
+    width: 60vw;
+  }
+}
+
 h1 {
+  margin-top: 80px;
   margin-bottom: 40px;
   color: #F9EDDC;
 }
@@ -51,14 +64,21 @@ a:hover {
 
 #whole-page {
   background-color: #2D232E;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #navbar, #submit-button {
   background-color: #DA3E52;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .uk-navbar-nav li a {
   color: #F9EDDC;
   font-size: 20px;
+}
+
+.uk-card-body img { 
+  margin: 2px;
 }
