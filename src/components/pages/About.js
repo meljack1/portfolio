@@ -7,7 +7,7 @@ export default function About() {
         <h1 className="uk-heading-line uk-text-center">
             <span>About</span>
         </h1>
-        <div className="uk-container uk-container-small">
+        <div className="uk-container uk-container-xsmall">
             <div className="circle">
                 <img src={melPhoto} alt="A photograph of Mel Jack"/>
             </div>
