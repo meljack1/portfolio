@@ -127,6 +127,9 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+    background-color:hsla(0, 0%, 100%, 0.123);
+    padding: 30px 40px 10px 40px;
+    margin-top: 0;
   }
 }
 
