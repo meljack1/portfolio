@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e4d05801.chunk.css",
+    "main.js": "/portfolio/static/js/main.f0fd551f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f0fd551f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5e749f4e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5e749f4e.js.map",
+    "static/css/2.c843ab92.chunk.css": "/portfolio/static/css/2.c843ab92.chunk.css",
+    "static/js/2.e0ea9868.chunk.js": "/portfolio/static/js/2.e0ea9868.chunk.js",
+    "static/js/2.e0ea9868.chunk.js.map": "/portfolio/static/js/2.e0ea9868.chunk.js.map",
+    "static/js/3.b1b75ce5.chunk.js": "/portfolio/static/js/3.b1b75ce5.chunk.js",
+    "static/js/3.b1b75ce5.chunk.js.map": "/portfolio/static/js/3.b1b75ce5.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.c843ab92.chunk.css.map": "/portfolio/static/css/2.c843ab92.chunk.css.map",
+    "static/css/main.e4d05801.chunk.css.map": "/portfolio/static/css/main.e4d05801.chunk.css.map",
+    "static/js/2.e0ea9868.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e0ea9868.chunk.js.LICENSE.txt",
+    "static/media/blog.d249fe08.png": "/portfolio/static/media/blog.d249fe08.png",
+    "static/media/budget.55cf873b.png": "/portfolio/static/media/budget.55cf873b.png",
+    "static/media/codeshare.93b244e6.PNG": "/portfolio/static/media/codeshare.93b244e6.PNG",
+    "static/media/etchasketch.7eaba19a.png": "/portfolio/static/media/etchasketch.7eaba19a.png",
+    "static/media/fitness.329088f5.png": "/portfolio/static/media/fitness.329088f5.png",
+    "static/media/geojobs.adb26f05.PNG": "/portfolio/static/media/geojobs.adb26f05.PNG",
+    "static/media/melphoto.c93173b1.PNG": "/portfolio/static/media/melphoto.c93173b1.PNG",
+    "static/media/scheduler.39f063c6.png": "/portfolio/static/media/scheduler.39f063c6.png",
+    "static/media/todocamp.36a12f5e.png": "/portfolio/static/media/todocamp.36a12f5e.png",
+    "static/media/weather.4847dcdc.png": "/portfolio/static/media/weather.4847dcdc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e749f4e.js",
+    "static/css/2.c843ab92.chunk.css",
+    "static/js/2.e0ea9868.chunk.js",
+    "static/css/main.e4d05801.chunk.css",
+    "static/js/main.f0fd551f.chunk.js"
+  ]
+}
