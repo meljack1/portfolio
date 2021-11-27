@@ -3,12 +3,13 @@ import React from 'react';
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <nav className="uk-navbar-container" data-uk-navbar>
+    <nav className="uk-navbar-container" id="navbar" data-uk-navbar>
       <div className="uk-navbar-center">
         <ul className="uk-navbar-nav">
           <li>
             <a
               href="#about"
+              id="nav-link"
               onClick={() => handlePageChange('About')}
               className={currentPage === 'About' ? 'nav-link uk-active' : 'nav-link'}
             >
