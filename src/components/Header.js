@@ -34,7 +34,7 @@ function Header({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-          <li><a href={'https://drive.google.com/uc?export=download&id=1FJkulOLHcNVX8RBHgrM59cQgZ1VD05_M'}>CV</a></li>
+          <li><a href={'https://drive.google.com/uc?export=download&id=1G-prLmNU24A_dJtugn_a9j33Q47PWqIH'}>CV</a></li>
         </ul>
       </div>
   </nav>
